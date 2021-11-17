@@ -36,6 +36,6 @@ if (userAge > 65) {
     console.log(priceOutput);
 
     // Creo il messaggio di Output
-    alert(`Il prezzo del tuo biglietto sarà: ${priceOutput} / €`);
+    alert(`Il prezzo del tuo biglietto sarà: ${priceOutput.toFixed(2)} / €`);
 }
 
